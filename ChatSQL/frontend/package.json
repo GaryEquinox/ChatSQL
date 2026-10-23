@@ -1,0 +1,22 @@
+{
+  "name": "bank-nl2sql-lite",
+  "private": true,
+  "version": "1.0.5",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vue-tsc -b && vite build",
+    "typecheck": "vue-tsc -b"
+  },
+  "dependencies": {
+    "@vitejs/plugin-vue": "^6.0.0",
+    "chart.js": "^4.5.1",
+    "lucide-vue-next": "^0.468.0",
+    "vite": "^7.0.5",
+    "vue": "^3.5.17"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4",
+    "vue-tsc": "^2.2.12"
+  }
+}
